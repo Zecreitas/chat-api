@@ -1,0 +1,20 @@
+{
+  "name": "chat-api",
+  "version": "1.0.0",
+  "description": "Demonstração chat-api",
+  "main": "./bin/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "chat-api"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "chat"
+  ],
+  "author": "Guilherme Schuh",
+  "license": "ISC"
+}
