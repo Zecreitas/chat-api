@@ -4,11 +4,12 @@
   "description": "Demonstração chat-api",
   "main": "./bin/server.js",
   "scripts": {
+    "start": "node ./bin/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "chat-api"
+    "url": "https://github.com/Zecreitas/chat-api.git"
   },
   "keywords": [
     "node",
@@ -16,5 +17,10 @@
     "chat"
   ],
   "author": "Guilherme Schuh",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  }
 }
